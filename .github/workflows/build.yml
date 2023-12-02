@@ -25,7 +25,7 @@ jobs:
         id: check
         uses: twiddler/is-my-docker-parent-image-out-of-date@main
         with:
-          parent-image: php:8-fpm-alpine
+          parent-image: php:7-fpm-alpine
           my-image: ghcr.io/cantorgymnasium/php:main
 
       - name: Log in to the Container registry
